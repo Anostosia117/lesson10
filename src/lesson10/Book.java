@@ -33,7 +33,7 @@ public class Book {
     }
 
     public String toString() {
-        return "Название книги: " + this.nameOfBook + ". Имя автора " + this.author + ". Год издания " + this.yearOfPublishing;
+        return "Название книги: " + this.nameOfBook + ". Имя автора: " + this.author + ". Год издания: " + this.yearOfPublishing;
     }
     @Override
     public boolean equals(Object other) {
